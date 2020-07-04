@@ -2,7 +2,7 @@ var shopper = {
     fruit: "mango",
     amount: 10,
     vegetable: false,
-    groceries: [
+    groceryCart: [
         "milk",
         "salt",
         "mango",
@@ -10,3 +10,4 @@ var shopper = {
     ]
 
 }
+ console.log(shopper);
