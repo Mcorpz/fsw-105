@@ -10,11 +10,10 @@ var shopper = {
     ],
 
     description: function() {
-        document.write( )
+        document.write();
     }
 }
 
- console.log(shopper);
 
 var person =  {
     firstname: "Mark",
@@ -22,8 +21,7 @@ var person =  {
     age: 31,
     haircolor: "black",
     fullname: function () {
-        document.write(this.firstname+ " " +this.lastname)
-        ;
     }
 };
-person.fullname();
+
+console.log(person.firstname+ " "+ person.lastname+" "+ "is"+ " "+ person.age)

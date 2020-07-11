@@ -13,3 +13,9 @@ if( Brad > 18) {
     console.log("Is NOT allowed to go to movie")
 }
 
+if("1" == 1)
+console.log("Loose")
+
+if(1 < 2 &&  2 == 4);
+console.log("yes")
+
