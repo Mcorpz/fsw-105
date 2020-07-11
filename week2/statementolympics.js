@@ -19,3 +19,12 @@ console.log("Loose")
 if(1 < 2 &&  2 == 4);
 console.log("yes")
 
+var str = 'dog';
+console.log(typeof 'dog')
+console.log(typeof true)
+console.log(typeof undeclaredVariable)
+console.log('s' > 12)
+console.log(typeof 'm')
+console.log(typeof 32)
+
+
