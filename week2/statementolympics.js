@@ -2,6 +2,7 @@ if(5 > 3) {
     console.log("is greater than")
 }
 
+var str = "cat";
 if("cat" != 3) {
     console.log("is the length")
 }
@@ -27,4 +28,9 @@ console.log('s' > 12)
 console.log(typeof 'm')
 console.log(typeof 32)
 
-
+function isEven(value) {
+	if (value%2 == 0)
+		return true;
+	else
+		return false;
+}
