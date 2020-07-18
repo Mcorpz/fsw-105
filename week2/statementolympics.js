@@ -45,12 +45,12 @@ console.log("******")
 
 
 
-(typeof 'dog')
-console.log(typeof true)
-console.log(typeof undeclaredVariable)
-console.log('s' > 12)
-console.log(typeof 'm')
-console.log(typeof 32)
+if typeof("dog") === "string"
+if typeof("true") === "boolean"
+if typeof(undeclaredVariable)
+if("j" < 13)
+if("k" < 32)
+
 
 function isEven(value) {
 	if (value%2 == 0)
@@ -58,3 +58,6 @@ function isEven(value) {
 	else
 		return false;
 }
+
+console.log(isEven(7));
+console.log(isEven(20));
