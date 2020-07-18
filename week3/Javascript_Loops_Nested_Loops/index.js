@@ -37,4 +37,3 @@ for (k = 0; k < peopleWhoWantToSeeMadMaxFuryRoad.length; k++){
 
 // for(var i = 0; i < 101; i++){
 //     console.log(i)
-// 
