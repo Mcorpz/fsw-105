@@ -1,18 +1,30 @@
+// Prelims
 if(5 > 3) {
     console.log("is greater than")
 }
 
 var str = "cat";
-if("cat" != 3) {
+if(str.length = 3) {
     console.log("is the length")
 }
 
-var Brad=21;
-if( Brad > 18) {
+console.log("******")
+//bronze
+
+var person = {
+    name: "Bobby",
+    age: 12
+    }
+
+if(person.age > 18) {
     console.log("Is allowed to go to movie")
 } else {
-    console.log("Is NOT allowed to go to movie")
+    console.log(`${person.name} is NOT allowed to go to movie`)
 }
+
+if (person.name > &&  person.name.method)
+
+console.log("******")
 
 if("1" == 1)
 console.log("Loose")

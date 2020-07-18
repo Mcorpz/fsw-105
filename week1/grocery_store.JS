@@ -16,12 +16,13 @@ var shopper = {
 
 
 var person =  {
-    firstname: "Mark",
-    lastname: "Corpuz",
+    firstName: "Mark",
+    lastName: "Corpuz",
     age: 31,
     haircolor: "black",
     fullname: function () {
+        return this.firstName + " " + this.lastName;
     }
 };
 
-console.log(person.firstname+ " "+ person.lastname+" "+ "is"+ " "+ person.age)
+console.log(person.markCorpuz)
