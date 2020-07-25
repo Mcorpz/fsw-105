@@ -1,4 +1,4 @@
-var peopleWhoWantToSeeMadMaxFuryRoad = [
+var movie = [
     {
         name: "Mike",
         age: 12,
@@ -22,18 +22,41 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
     }
 ]
 
-var peopleWhokWantToSeeMadMaxFuryRoad;
-
-for (k = 0; k < peopleWhoWantToSeeMadMaxFuryRoad.length; k++){
-    if (peopleWhoWantToSeeMadMaxFuryRoad[k].age >= 18){
-       if (peopleWhokWantToSeeMadMaxFuryRoad.gender=="male"){
-           console.log(peopleWhokWantToSeeMadMaxFuryRoad.name, "is old enough.")
+function alpha(movie){
+for (i = 0; i < movie.length; i++){
+    movie[i].age >= 18 ? console.log("is old enough") : console.log("is NOT old enough")
+}
+}
+function bravo(movie){
+for (i = 0; i <movie.length; i++){
+    movie[i].age >= 18 ? console.log(`${movie[i].name} is old enough.`) : console.log(`${movie[i].name} is NOT old enough to see Mad Max Fury Road don't let`);
+}
+}       
+function stuff(movie){
+    for ( i = 0; i < movie.length; i++){
+        if (movie[i].gender === "male" && movie[i].age >= 18){
+        console.log(`${movie[i].name} is old enough to see Mad Max, let HIM in!`)
+       } else if (movie[i].gender === "female" && movie[i].age >= 18){
+        console.log(`${movie[i].name} is old enough to see Mad Max, let HER in`)
+       } else if (movie[i].gender === "male" && movie[i].age < 18){
+        console.log(`${movie[i].name} is not old enough to see Mad Max, do not let HIM in`)
+       } else {
+         console.log(`${movie[i].name} is not old enough to see Mad Max, to not let HER in!`)
        }
-       else {   
-           console.log(peopleWhokWantToSeeMadMaxFuryRoad.name,"is not old enough to see Mad Max Fury Road, don't let" );
-       }
-       
+    }
+}
 
 
-for(var i = 0; i < 101; i+){
-    console.log(i)
+
+console.log(stuff(movie))
+
+for(var i = 0; i < 101; i++){
+    /* if([i] % 2 !=0){
+        console.log([i]  + "odd")
+    } else {
+            console.log([i] + "even")
+        } */
+    
+    
+console.log(([i] % 2 !=0 ) ? [i] + " " + "odd" : [i] + " " +"even");
+    }
