@@ -38,7 +38,9 @@ function math() {
     else if (sum === 'div'){
         division()
     }
-    
+    else {
+        console.log('Not an input')
+    }
 }
 
 
