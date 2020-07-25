@@ -7,6 +7,21 @@ function addition (){
     var num2 = readlineSync.question('Please enter your second number? '); 
     console.log(Number(num1) + Number(num2))
 }
+function subtraction(){
+    var num1 = readlineSync.question('Please enter your first number? ');
+    var num2 = readlineSync.question('Please enter your second number? '); 
+    console.log(Number(num1) - Number(num2))
+}
+function multiplication(){
+    var num1 = readlineSync.question('Please enter your first number? ');
+    var num2 = readlineSync.question('Please enter your second number? '); 
+    console.log(Number(num1) * Number(num2))
+}
+function division(){
+    var num1 = readlineSync.question('Please enter your first number? ');
+    var num2 = readlineSync.question('Please enter your second number? '); 
+    console.log(Number(num1) / Number(num2))
+}
 
 
 function math() {
@@ -15,9 +30,16 @@ function math() {
         addition() 
     }
     else if (sum === 'sub'){
-        console.log('HELLOW WORLD')
+        subtraction()
     }
+    else if (sum === 'mul'){
+        multiplication()
+    }
+    else if (sum === 'div'){
+        division()
+    }
+    
 }
 
 
-math()
+math('The result is `${math()}')
