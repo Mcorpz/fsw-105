@@ -5,22 +5,22 @@ var readlineSync = require('readline-sync');
 function addition (){
     var num1 = readlineSync.question('Please enter your first number? ');
     var num2 = readlineSync.question('Please enter your second number? '); 
-    console.log(Number(num1) + Number(num2))
+    console.log("The result is"  + " " + Number(num1) + Number(num2))
 }
 function subtraction(){
     var num1 = readlineSync.question('Please enter your first number? ');
     var num2 = readlineSync.question('Please enter your second number? '); 
-    console.log(Number(num1) - Number(num2))
+    console.log("The result is"  + " " +  Number(num1) - Number(num2))
 }
 function multiplication(){
     var num1 = readlineSync.question('Please enter your first number? ');
     var num2 = readlineSync.question('Please enter your second number? '); 
-    console.log(Number(num1) * Number(num2))
+    console.log("The result is"  + " " + Number(num1) * Number(num2))
 }
 function division(){
     var num1 = readlineSync.question('Please enter your first number? ');
     var num2 = readlineSync.question('Please enter your second number? '); 
-    console.log(Number(num1) / Number(num2))
+    console.log("The result is"  + " " + Number(num1) / Number(num2))
 }
 
 
@@ -44,4 +44,4 @@ function math() {
 }
 
 
-math('The result is `${math()}')
+math()
