@@ -1,3 +1,68 @@
+var fruit = ["banana", "apple", "orange", "watermelon"]
+var vegetables = ["carrot", "tomato", "pepper", "lettuce"]
+
+
+
+// Remove the last item from the vegetable array.
+
+
+
+console.log("fruit: ", fruit)
+fruit.pop()
+console.log("fruit: ", fruit)
+
+console.log("vegetables: ", vegetables);
+vegetables.pop()
+console.log("vegetables: ", vegetables);
+console.log('******')
+
+
+// Remove the first item from the fruit array.
+
+console.log("fruit: ", fruit)
+fruit.shift()
+console.log("fruit: ", fruit)
+
+console.log("vegetables: ", vegetables);
+vegetables.shift()
+console.log("vegetables: ", vegetables);
+console.log('******')
+
+
+
+// Find the index of "orange."
+var fruit = ["banana", "apple", "orange", "watermelon"]
+fruit.indexOf("orange");
+console.log(fruit.indexOf("orange"))
+console.log('******')
+// Add that number to the end of the fruit array.
+
+// Use the length property to find the length of the vegetable array.
+var vegetables = ["carrot", "tomato", "pepper", "lettuce"]
+vegetables.length;
+console.log(vegetables.length)
+console.log('******')
+// Add that number to the end of the vegetable array.
+
+// Put the two arrays together into one array. Fruit first. Call the new Array "food".
+
+const food = fruit.concat(vegetables);
+
+console.log(food)
+console.log('******')
+// Remove 2 elements from your new array starting at index 4 with one method.
+
+// Reverse your array.
+
+
+var fruit = ["banana", "apple", "orange", "watermelon"]
+
+console.log(fruit.reverse());
+console.log('******')
+
+// Turn the array into a string and return it.
+
+
 // ******** 1
 var myName = "Mark Corpuz"
 
@@ -7,7 +72,7 @@ function capitalizeAndLowerCase(myName)  {
 }
 
 console.log(capitalizeAndLowerCase(myName))
-
+console.log('******')
 
 // ***** 2
 
@@ -19,7 +84,7 @@ function alpha(){
 }
 
 alpha()
-
+console.log('******')
 // ******* 3
 
 var firstHalf = "This is the assignment for FSW-105";
@@ -51,7 +116,7 @@ else {
 }
 }
 numberFour(secondCapLocks)
-
+console.log('******')
 
 
 
